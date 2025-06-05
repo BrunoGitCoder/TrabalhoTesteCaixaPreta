@@ -49,3 +49,7 @@ Para executar os testes automatizados deste projeto, siga as etapas abaixo:
 3. Instale as dependências necessárias com `pip install -r requirements.txt`.
 4. Execute todos os testes com o comando `pytest`.
 5. Para rodar um teste específico, utilize `pytest nome_do_arquivo.py`, por exemplo: `pytest test_login.py`.
+6. Para deletar o ambiente virtual, basta apagar a pasta venv. Você pode fazer isso pelo explorador de arquivos ou pelo terminal:
+   - No PowerShell, execute: `Remove-Item -Recurse -Force .\venv`
+   - No Prompt de Comando (cmd), execute: `rmdir /s /q venv`
+*⚠️Importante: feche qualquer terminal que esteja usando o ambiente virtual antes de deletar a pasta.*

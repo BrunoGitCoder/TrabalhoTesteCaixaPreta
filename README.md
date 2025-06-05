@@ -36,7 +36,16 @@ Os testes foram feitos **sem acesso ao código-fonte**, simulando a experiência
 - Pytest
 - WebDriver do Chrome (Chromedriver)
 
+---
+
 ## ▶️ Como executar os testes
 
-Para executar os testes automatizados deste projeto, primeiro clone este repositório com `git clone https://github.com/seu-usuario/seu-repositorio.git` e entre na pasta com `cd seu-repositorio`. Recomenda-se criar um ambiente virtual com `python -m venv venv` e ativá-lo com `venv\Scripts\activate` no Windows ou `source venv/bin/activate` no Linux/macOS. Em seguida, instale as dependências com `pip install -r requirements.txt`. Com tudo pronto, execute os testes com `pytest`. Para rodar um teste específico, utilize `pytest nome_do_arquivo.py`, como por exemplo `pytest test_login.py`.
+Para executar os testes automatizados deste projeto, siga as etapas abaixo:
 
+1. Clone este repositório com o comando `git clone https://github.com/seu-usuario/seu-repositorio.git` e entre na pasta do projeto usando `cd seu-repositorio`.
+2. (Opcional, mas recomendado) Crie e ative um ambiente virtual para isolar as dependências:
+   - No Windows: `python -m venv venv` e depois `venv\Scripts\activate`
+   - No Linux/macOS: `python3 -m venv venv` e depois `source venv/bin/activate`
+3. Instale as dependências necessárias com `pip install -r requirements.txt`.
+4. Execute todos os testes com o comando `pytest`.
+5. Para rodar um teste específico, utilize `pytest nome_do_arquivo.py`, por exemplo: `pytest test_login.py`.

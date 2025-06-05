@@ -42,7 +42,7 @@ Os testes foram feitos **sem acesso ao código-fonte**, simulando a experiência
 
 Para executar os testes automatizados deste projeto, siga as etapas abaixo:
 
-1. Clone este repositório com o comando `git clone https://github.com/seu-usuario/seu-repositorio.git` e entre na pasta do projeto usando `cd seu-repositorio`.
+1. Clone este repositório com o comando `git clone https://github.com/BrunoGitCoder/TrabalhoTesteCaixaPreta.git` e entre na pasta do projeto usando `cd TrabalhoTesteCaixaPreta`.
 2. (Opcional, mas recomendado) Crie e ative um ambiente virtual para isolar as dependências:
    - No Windows: `python -m venv venv` e depois `venv\Scripts\activate`
    - No Linux/macOS: `python3 -m venv venv` e depois `source venv/bin/activate`

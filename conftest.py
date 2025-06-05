@@ -33,4 +33,4 @@ def funcionario_sem_sobrenome():
 
 @pytest.fixture
 def funcionario_matricula_repetida():
-    return {"nome": "Paulo", "meio": "Gomes", "sobrenome": "de Andrade", "matricula": "Uni348"}
+    return {"nome": "Igor", "meio": "Gomes", "sobrenome": "de Andrade", "matricula": "Uni348"}
